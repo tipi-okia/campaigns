@@ -1,0 +1,36 @@
+---
+description: Contexto do projeto Campanhas Tipi da Serra — Linear, specs, notebook
+alwaysApply: true
+---
+
+# Campanhas Tipi da Serra — Contexto
+
+## Objetivo do projeto
+
+Explorar o banco de dados, entender relacionamentos entre tabelas e construir dashboards para criação/gestão de campanhas (Tipi da Serra).
+
+## Onde está o contexto
+
+- **Visão e escopo:** `.specs/project/PROJECT.md`
+- **Roadmap e milestones:** `.specs/project/ROADMAP.md`
+- **Decisões e bloqueios:** `.specs/project/STATE.md`
+- **Inteligência do codebase/banco:** `.notebook/INDEX.md` (e notas em `.notebook/`)
+
+## Linear
+
+- **Team:** OK IA
+- **Project:** Tipi da Serra
+- Config em `.cursor/linear.json` — usar em todas as operações Linear (criar/atualizar issues, listar sprint, etc.).
+- Issues em linguagem code-agnostic (domínio/comportamento, sem caminhos de arquivo ou trechos de código).
+
+## Fluxo de trabalho
+
+- **Planejamento:** tlc-spec-driven (.specs, phases Specify → Design → Tasks → Implement).
+- **Navegação no código/banco:** codenavi (.notebook/, recon antes de implementar).
+- **Gestão de tarefas:** linear-project-management (criar issues a partir de planos aprovados, atualizar status).
+
+## MCPs úteis
+
+- **user-linear:** issues, projetos, ciclos, comentários.
+- **user-context7:** documentação atualizada de libs/frameworks.
+- **tipi-serra (Postgres):** banco Tipi da Serra — listar tabelas, executar SQL (read-only), plano de queries. Config em `.cursor/mcp.json`; credenciais em `.env` (ver README).

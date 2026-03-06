@@ -1,0 +1,17 @@
+# Env e segredos (MCP Postgres usa .env)
+.env
+.env.local
+*.pem
+
+# OS e editor
+.DS_Store
+.idea
+*.swp
+*.swo
+*~
+
+# Logs e build
+*.log
+node_modules/
+dist/
+build/

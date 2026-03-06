@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "tipi-serra": {
+      "command": "./scripts/mcp-tipi-serra-postgres.sh",
+      "args": [],
+      "env": {}
+    }
+  }
+}
